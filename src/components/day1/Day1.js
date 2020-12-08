@@ -13,9 +13,9 @@ export const Day1Mixins = {
                     }
                 }
             }
-            this.showEx2(array)
+            this.showDay1Ex2(array)
         },
-        showEx2() {
+        showDay1Ex2() {
             for (let i = 0; i < n.numbers.length; i++) {
                 for (let j = 0; j < n.numbers.length; j++) {
                     for (let k = 0; k < n.numbers.length; k++) {
